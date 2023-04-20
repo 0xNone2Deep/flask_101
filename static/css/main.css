@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+::-moz-selection {
+    background: #1bce94;
+    color: #fff;
+}
+
+::selection {
+    background: #1bce94;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
